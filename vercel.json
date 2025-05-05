@@ -1,9 +1,4 @@
 {
-  "functions": {
-    "api/*.js": {
-      "runtime": "nodejs@18.x"
-    }
-  },
   "routes": [
     { "src": "^/$", "dest": "/api/pangram" },
     { "src": "/api/(.*)", "dest": "/api/$1.js" }
