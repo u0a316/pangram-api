@@ -5,6 +5,7 @@
     }
   },
   "routes": [
+    { "src": "^/$", "dest": "/api/pangram" },
     { "src": "/api/(.*)", "dest": "/api/$1.js" }
   ]
 }
