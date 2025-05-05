@@ -1,6 +1,0 @@
-{
-  "name": "pangram-api",
-  "version": "1.0.0",
-  "main": "api/pangram.js",
-  "type": "commonjs"
-}
