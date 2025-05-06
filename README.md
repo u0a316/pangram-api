@@ -1,6 +1,8 @@
 # pangram-api x http shortcut
 
 (1).  isValid(PangramAPI()); // Nama pintasan
+
+(1.1). [Salin tautan ini: ```http-shortcuts://a9b5a3c2-182a-46b4-be02-13084d1d7ce9```
 ```sh
 showWindow({
   title: 'informations',
