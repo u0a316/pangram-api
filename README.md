@@ -34,8 +34,57 @@ shareText(result);
 
 ```
 
-(2).
+(2). PangramAPI(); // Nama pintasan
 ```sh
-jjk
+setShortcutHidden("PangramAPI()", true);
+showWindow({
+  title: 'informations',
+  text: [
+    "id: " + shortcut.id,
+    "name: " + shortcut.name,
+    "desc: " + shortcut.description,
+    "visible: " + shortcut.hidden,
+    "scid: " + shortcut.category.id,
+    "scname: " + shortcut.category.name
+  ].join("\n"),
+  fontSize: 24,
+  monospace: true,
+});
+
+const output = ""; /* Bikin manual di titik tiga => Variable => Tap + => Variable statis => Nama = output, Nilai = <kosongkan> / Nanti akan digenerate lewat ini */
+const link = "https://pangram-api-u0a316s-projects.vercel.app/api/pangram"
+
+const result = sendHttpRequest(
+  link,
+  {
+    method: "GET",
+    headers: {
+      "Content-Type": "application/json",
+    },
+  },
+);
+
+if (result.status == "success") {
+
+const retrievedOutput = setVariable("output", result.response.body);
+getVariable("output")
+
+showToast('berhasil menyimpan variabel!'); 
+
+} else if (result.status == "httpError") {
+ 
+const retrievedOutput = setVariable("output", "Failed with status code " + result.response.statusCode);
+
+getVariable("output")
+showToast('berhasil menyimpan variabel!'); 
+
+
+} else {
+  const retrievedOutput = setVariable("output", "Failed with status network error " + result.networkError);
+
+getVariable("output")
+showToast('berhasil menyimpan variabel!'); 
+
+}
 ```
 
