@@ -2,13 +2,15 @@
 
 (1).  isValid(PangramAPI()); // Nama pintasan
 
-(1.1). [Buka tautan ini: ```http-shortcuts://a9b5a3c2-182a-46b4-be02-13084d1d7ce9```
+(1.1). [Buka tautan ini: ``````
 ```sh
 
 /*
-		name: isValid(PangramAPI())
-		version: v2
-		description: Versi ini menyertakan variable bertipe object yang sebelumnya memakai array yang dapat digunakan bersama(modular), nilai default dari variabel sharedObject akan null setelah tidak digunakan.
+	name: isValid(PangramAPI())
+	version: v2
+	description: Versi ini menyertakan variable bertipe object yang sebelumnya memakai array --
+ yang dapat digunakan bersama(modular), nilai default dari variabel sharedObject akan null --
+setelah tidak digunakan.
 
 */
 
@@ -58,7 +60,7 @@ shareText(result); showDialog(result);
 
 (2). PangramAPI(); // Nama pintasan
 
-(2.1). [Buka tautan ini] ```http-shortcuts://af252630-50ec-46ce-85f5-8f104cf5f248```
+(2.1). [Buka tautan ini] ``````
 
 ```sh
 
