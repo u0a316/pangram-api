@@ -8,7 +8,8 @@
 /*
 	name: isValid(PangramAPI())
 	version: v2
-	description: Versi ini menyertakan variable bertipe object yang sebelumnya memakai array --
+	description: Pintasan ini untuk memeriksa apakah parameter berupa kalimat pangram atau tidak
+	what's new: Versi ini menyertakan variable bertipe object yang sebelumnya memakai array --
  yang dapat digunakan bersama(modular), nilai default dari variabel sharedObject akan null --
 setelah tidak digunakan.
 
