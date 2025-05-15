@@ -1,0 +1,6 @@
+/*
+    name: readFrom()
+    
+*/
+
+setVariable("output", prompt("input: "));
