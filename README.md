@@ -3,7 +3,7 @@
 (1).  isValid(PangramAPI()); // Nama pintasan
 
 (1.1). [Buka tautan ini: ``````
-```sh
+```javascript
 
 /*
 	name: isValid(PangramAPI())
@@ -62,10 +62,7 @@ shareText(result); showDialog(result);
 
 (2.1). [Buka tautan ini] 
 
-```sh
-
-```
-
+```javascript
 /*
 		name: PangramAPI()
 		version: v2
@@ -147,3 +144,4 @@ showWindow({
   monospace: true,
 });
 abortAll();
+```
