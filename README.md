@@ -64,9 +64,10 @@ shareText(result); showDialog(result);
 
 ```javascript
 /*
-		name: PangramAPI()
-		version: v2
-		description: Versi ini menyertakan variable bertipe object yang sebelumnya memakai array
+	name: PangramAPI()
+	version: v2
+	description: Jangan jalankan melalui ini melalui isValid saja, karena saling terhubung
+	what's new: Versi ini menyertakan variable bertipe object yang sebelumnya memakai array
 
 */
 
