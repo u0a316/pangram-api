@@ -60,7 +60,7 @@ shareText(result); showDialog(result);
 
 (2). PangramAPI(); // Nama pintasan
 
-(2.1). [Buka tautan ini] ``````
+(2.1). [Buka tautan ini] 
 
 ```sh
 
