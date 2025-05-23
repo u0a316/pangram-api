@@ -51,8 +51,9 @@ const isPangram = (string) => {
 };
 wait(1000 /* milliseconds */);
 
-executeShortcut("readFrom()");
-//("PangramAPI()");
+executeShortcut("PangramAPI()");
+//("readFrom()");
+//(";
 
 const result = isPangram(getVariable("output"))
 
