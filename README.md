@@ -1,4 +1,4 @@
-# pangram-api x http shortcut
+# pangram-api with http shortcut
 
 (1).  isValid(PangramAPI()); // Nama pintasan
 
